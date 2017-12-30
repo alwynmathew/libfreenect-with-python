@@ -1,4 +1,4 @@
-# Install libfreenect and libfreenect wrapper for python
+# Install libfreenect and libfreenect wrapper for python in Ubuntu
 
 ## Files
 ```Install_libfree_ubuntu.sh``` - Install libfreenect in Ubuntu 16.04
