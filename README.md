@@ -6,6 +6,9 @@
 ```Install_libfree_python.sh``` - Install libfreenect wrapper for python on Ubuntu 16.04
 
 ## Install
+
+Change permission of these file to "Allow executing file as program"
+
 ```sudo ./Install_libfree_ubuntu.sh```
 
 ```sudo ./Install_libfree_python.sh```
