@@ -23,7 +23,7 @@ sudo ldconfig /usr/local/lib64/
 
 dqt='"'
 # ATTR{product}=="Xbox NUI Motor"
-sudo su root -c "echo '''SUBSYSTEM==dqt=${dqt}usb${dqt}, ATTR{idVendor}==${dqt}045e${dqt}, ATTR{idProduct}==${dqt}02b0${dqt}, MODE=${dqt}0666${dqt}''' >> /etc/udev/rules.d/51-kinect.rules"
+sudo su root -c "echo '''SUBSYSTEM==${dqt}usb${dqt}, ATTR{idVendor}==${dqt}045e${dqt}, ATTR{idProduct}==${dqt}02b0${dqt}, MODE=${dqt}0666${dqt}''' >> /etc/udev/rules.d/51-kinect.rules"
 # ATTR{product}=="Xbox NUI Audio"
 sudo su root -c "echo '''SUBSYSTEM==${dqt}usb${dqt}, ATTR{idVendor}==${dqt}045e${dqt}, ATTR{idProduct}==${dqt}02ad${dqt}, MODE=${dqt}0666${dqt}''' >> /etc/udev/rules.d/51-kinect.rules"
 # ATTR{product}=="Xbox NUI Camera"
